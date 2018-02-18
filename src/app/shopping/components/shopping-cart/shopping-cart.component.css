@@ -1,0 +1,16 @@
+
+.thumbnail { 
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-size: cover;
+  }
+  
+  .card { 
+    margin-bottom: 80px;
+  }
+
+  .card-body { 
+    margin-top: -10px;
+    margin-bottom: -20px;
+  }
