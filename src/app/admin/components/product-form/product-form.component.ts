@@ -12,7 +12,7 @@ import { ProductService } from 'shared/services/product.service';
 })
 export class ProductFormComponent implements OnInit {
   categories$;
-  product;
+  product = {};
   id;
 
   constructor(
