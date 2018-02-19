@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CategoryService } from 'shared/services/category.service';
 import { ProductService } from 'shared/services/product.service';
+import { Product } from 'shared/models/product';
 
 @Component({
   selector: 'app-product-form',
@@ -12,7 +13,7 @@ import { ProductService } from 'shared/services/product.service';
 })
 export class ProductFormComponent implements OnInit {
   categories$;
-  product = {};
+  product: Product;
   id;
 
   constructor(

@@ -15,6 +15,9 @@ import { OrderService } from 'shared/services/order.service';
 import { ProductService } from 'shared/services/product.service';
 import { ShoppingCartService } from 'shared/services/shopping-cart.service';
 import { UserService } from 'shared/services/user.service';
+import { Product } from 'shared/models/product';
+import { Order } from 'shared/models/order';
+import { Shipping } from 'shared/models/shipping';
 
 @NgModule({
   imports: [
